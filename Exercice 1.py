@@ -16,3 +16,12 @@ class Affichage:
         self.n = n
         self.triangle = Triangle(n)
 
+    def afficherDeuxTriangle(self):
+        for i in range(1,self.n+1):
+            gauche = self.triangle.ligne_gauche(i)
+            droite = self.triangle.ligne_droite(i)
+            print(gauche + " " + droite)
+n= int(input("saisir le nombre de lignes :"))
+
+
+
