@@ -23,5 +23,15 @@ class Affichage:
             print(gauche + " " + droite)
 n= int(input("saisir le nombre de lignes :"))
 
+aff = Affichage(n)
+aff.afficherDeuxTriangle()
+
+
+
+
+
+
+
+
 
 
