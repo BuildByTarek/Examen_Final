@@ -22,6 +22,11 @@ class Outils:
         return grand
     def sommme (self):
         for n in self.nombres:
+            total = total + n
+            return total
+
+
+
 
 
 
