@@ -25,6 +25,12 @@ class Outils:
             total = total + n
             return total
 
+outil = Outils()
+outil.saisir()
+print("*"*30)
+print("le plus petit =", outil.minimum())
+
+
 
 
 
