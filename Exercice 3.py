@@ -19,6 +19,9 @@ class Outils:
         for n in self.nombres:
             if n > grand:
                 grand =n
-        return grans
+        return grand
+    def sommme (self):
+        for n in self.nombres:
+
 
 
