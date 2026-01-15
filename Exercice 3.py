@@ -24,7 +24,9 @@ class Outils:
         for n in self.nombres:
             total = total + n
             return total
-
+    def moyenne(self):
+        total = self.somme()
+        return total / len(self.nombres)
 outil = Outils()
 outil.saisir()
 print("*"*30)
