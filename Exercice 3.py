@@ -29,6 +29,9 @@ outil = Outils()
 outil.saisir()
 print("*"*30)
 print("le plus petit =", outil.minimum())
+print("le max ="  , outil.maximum())
+print("la somme des entiers ="  , outil.somme())
+print("la moyenne des entiers =" , outil.moyenne())
 
 
 
