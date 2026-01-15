@@ -16,4 +16,6 @@ class Outils:
         return petit
     def maximum(self,):
         grand = self.nombres[0]
+        for n in self.nombres
+
 
