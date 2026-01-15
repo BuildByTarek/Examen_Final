@@ -11,3 +11,8 @@ class Triangle:
         espaces = " " * (self.n - i)
         return etoiles + espaces
 
+class Affichage:
+    def __init__(self, n):
+        self.n = n
+        self.triangle = Triangle(n)
+
