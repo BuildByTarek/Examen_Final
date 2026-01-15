@@ -6,3 +6,8 @@ class Triangle:
         espaces = " " * (self.n - i)
         etoiles = "*" * i
         return espaces + etoiles
+    def ligne_droite(self,i):
+        etoiles = "*" * i
+        espaces = " " * (self.n - i)
+        return etoiles + espaces
+
