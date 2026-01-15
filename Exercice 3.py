@@ -19,5 +19,6 @@ class Outils:
         for n in self.nombres:
             if n > grand:
                 grand =n
+        return grans
 
 
