@@ -14,16 +14,17 @@ class Outils:
             if n< petit:
                 petit =n
         return petit
-    def maximum(self,):
+    def maximum(self):
         grand = self.nombres[0]
         for n in self.nombres:
             if n > grand:
                 grand =n
         return grand
-    def sommme (self):
+    def somme (self):
+        total =0
         for n in self.nombres:
             total = total + n
-            return total
+        return total
     def moyenne(self):
         total = self.somme()
         return total / len(self.nombres)
