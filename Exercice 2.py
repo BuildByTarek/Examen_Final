@@ -1,5 +1,7 @@
 import os
 import sys
+from operator import not_
+
 from PyQt6.QtWidgets import QApplication, QWidget,QPushButton,QGridLayout, QFrame, QLineEdit, QLabel
 
 liste =[]
@@ -16,6 +18,18 @@ def sauver():
     for l in liste:
         f.write(l.text()+"\n")
     f.close()
+
+def calculer_double():
+    n_txt = list[0].txt()
+    if n_txt == "":
+        liste[1].setText("")
+        return
+    if not n_txt.isdigit():
+        liste[1].setText("")
+        return
+    n= int(n_txt)
+    double = n * 2
+    liste[1].setText(str(double))
 
 
 
