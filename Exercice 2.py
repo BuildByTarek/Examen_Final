@@ -31,6 +31,10 @@ def calculer_double():
     double = n * 2
     liste[1].setText(str(double))
 
+app = QApplication(sys.argv)
+win = QWidget()
+
+
 
 
 
