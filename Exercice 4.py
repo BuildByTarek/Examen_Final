@@ -7,3 +7,6 @@ class Voiture:
         print(f"La voiture {self.marque} fonctinne bien")
 v1 = Voiture("BMW", 2020)
 v2 = Voiture("Audi", 2024)
+
+v1.fonctionne()
+v2.fonctionne()
