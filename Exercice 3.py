@@ -13,5 +13,7 @@ class Outils:
         for n  in self.nombres:
             if n< petit:
                 petit =n
-
         return petit
+    def maximum(self,):
+        grand = self.nombres[0]
+
